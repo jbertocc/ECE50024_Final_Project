@@ -194,9 +194,9 @@ def bayes_optimization():
 
         ###for i in range(len(y_truth)):
         ###    y_truth[i] = objective(x[i], noise = 0)
-        ##plt.scatter(x_org, y_org, c = 'r')
-        ##plt.plot(x_plot, y_truth, linewidth = 2.0)
-        ##plot(X, y, model, "Plot Newly selected samples and the current model/surrogate function")
+        plt.scatter(x_org, y_org, c = 'r')
+        plt.plot(x_plot, y_truth, linewidth = 2.0)
+        plot(X, y, model, "Plot Newly selected samples and the current model/surrogate function")
 
 
      
